@@ -1,0 +1,11 @@
+# Para ver la temepratura por comandos
+
+/opt/vc/bin/vcgencmd measure_temp
+
+# Podemos crear un alias de la siguiente forma
+
+sudo nano .bashrc
+
+# Añadimos esta linea la final del todo y reniciamos la sesion del terminal
+
+alias temperatura='/opt/vc/bin/vcgencmd measure_temp'
